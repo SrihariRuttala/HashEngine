@@ -1,0 +1,8 @@
+django-admin startproject <project name>
+python3 manage.py runserver
+python3 manage.py startapp <appname>
+
+if you want to add templates add os.path.join(BASE_DIR,'<folder name>')  in settings templates
+
+set up mysql with django :
+https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database 
